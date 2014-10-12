@@ -8,6 +8,7 @@ public class Publisher {
     long publisherId;
     String name;
 
+
     public long getPublisherId() {
         return publisherId;
     }

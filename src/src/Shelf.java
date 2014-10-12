@@ -33,5 +33,9 @@ public class Shelf {
             throw new BookNotFoundException();
     }
 
+public List<Book> search(SearchByType searchByType,String criteria){
+    SearchBy searchBy = SearchByFactory.create(searchByType);
+    return searchBy.matches(criteria);
+}
 
 }
