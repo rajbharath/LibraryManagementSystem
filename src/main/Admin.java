@@ -1,6 +1,8 @@
 
 package main;
 
+import main.exception.BookNotFoundException;
+
 import java.util.List;
 
 /**
@@ -18,7 +20,7 @@ public class Admin {
 
         try {
             shelf.remove(book);
-            Transaction transaction = new Transaction(reader.getReaderId(), book.getBookId(), Library.getToday(), Library.getDueDate(Library.getToday()));
+//            Transaction transaction = new Transaction(reader.getReaderId(), book.getBookId(), Library.getToday(), Library.getDueDate(Library.getToday()));
         } catch (BookNotFoundException e) {
             e.printStackTrace();
         }
@@ -28,7 +30,7 @@ public class Admin {
     public void renew(Reader reader, Book book) {
         Transaction transaction = Transaction.retrieve(reader.getReaderId(), book.getBookId());
         transaction.update(Library.getToday());
-        transaction = new Transaction(reader.getReaderId(), book.getBookId(), Library.getToday(), Library.getDueDate(Library.getToday()));
+//        transaction = new Transaction(reader.getReaderId(), book.getBookId(), Library.getToday(), Library.getDueDate(Library.getToday()));
     }
 
     public void takeBack(Reader reader, Book book) {

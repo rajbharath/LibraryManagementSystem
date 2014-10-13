@@ -2,6 +2,7 @@ package main;
 
 import DAO.BookDAO;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -14,19 +15,21 @@ public class Book {
     String edition;
     Publisher publisher;
     List<Author> authors;
-
+    boolean isPersistent = false;
     private static BookDAO bookDAO = new BookDAO();
 
-    public Book(long bookId, String title, String ISBN, String edition, Publisher publisher, Double price, int copies,List<Author> authors) {
+    public Book(long bookId, String title, String ISBN, String edition, Publisher publisher, List<Author> authors, boolean isPersistent, Double price, int copies) {
         this.bookId = bookId;
         this.title = title;
         this.ISBN = ISBN;
         this.edition = edition;
         this.publisher = publisher;
+        this.authors = authors;
+        this.isPersistent = isPersistent;
         this.price = price;
         this.copies = copies;
-        this.authors =  authors;
     }
+
 
     public List<Author> getAuthors() {
         return authors;
@@ -69,4 +72,35 @@ public class Book {
         return publisher;
     }
 
+    public static List<Book> retrieveAll() {
+        return bookDAO.retrieveAll();
+    }
+
+    public static Book retrieve(long bookId){
+        return bookDAO.retrieve(bookId);
+    }
+
+    public static void delete(Book book){
+        bookDAO.delete(book);
+    }
+
+    public void save() {
+        if (isPersistent)
+            bookDAO.update(this);
+        else
+            bookDAO.create(this);
+    }
+
+    public static List<Book> matches(String criteria) {
+
+        List<Book> books = bookDAO.retrieveAll();
+
+        List<Book> matchedBooks = new ArrayList<Book>();
+        for (Book book : books) {
+            if (book.getTitle().contains(criteria)) {
+                matchedBooks.add(book);
+            }
+        }
+        return matchedBooks;
+    }
 }

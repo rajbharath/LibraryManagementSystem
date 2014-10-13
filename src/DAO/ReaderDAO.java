@@ -1,13 +1,15 @@
 package DAO;
 
-import src.Reader;
+import main.Reader;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
 
 /**
  * Created by ganeswari on 10/9/14.
  */
-public class ReaderDAO extends  AbstractDAO<Reader>{
+public class ReaderDAO extends AbstractDAO<Reader> {
 
 
     @Override
@@ -16,7 +18,15 @@ public class ReaderDAO extends  AbstractDAO<Reader>{
     }
 
     @Override
-    public Reader retrieve(long Id) {
+    public Reader retrieve(long readerId) {
+        try {
+            ResultSet resultSet = connection.createStatement().executeQuery("select * from \"Reader\" where \"Reader_ID\" =" + readerId);
+            if (resultSet.next()) {
+                return new Reader(resultSet.getLong("Reader_ID"), resultSet.getString("Reader_Name"));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
         return null;
     }
 

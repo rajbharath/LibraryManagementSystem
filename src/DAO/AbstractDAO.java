@@ -35,4 +35,6 @@ public abstract class AbstractDAO<T> {
     public abstract boolean delete(T t);
 
     public abstract List<T> retrieveAll();
+
+
 }

@@ -1,6 +1,6 @@
 package DAO;
 
-import src.Publisher;
+import main.Publisher;
 
 import java.util.List;
 
