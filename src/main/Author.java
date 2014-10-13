@@ -1,4 +1,4 @@
-package src;
+package main;
 
 import DAO.AuthorDAO;
 
@@ -12,9 +12,17 @@ public class Author {
     private static AuthorDAO authorDAO = new AuthorDAO() ;
     long authorId;
     String name;
-    public Author(long authorId, String name) {
+    List<Book> books ;
+
+    public List<Book> getBooks() {
+        return books;
+    }
+
+    public Author(long authorId, String name,List<Book> books) {
         this.authorId = authorId;
         this.name = name;
+        this.books = books;
+
     }
 
     public long getAuthorId() {

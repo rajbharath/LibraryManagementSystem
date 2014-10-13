@@ -1,8 +1,7 @@
-package src;
+package main;
 
 import DAO.BookDAO;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -13,18 +12,24 @@ public class Book {
     String title;
     String ISBN;
     String edition;
-    long publisherId;
+    Publisher publisher;
+    List<Author> authors;
 
     private static BookDAO bookDAO = new BookDAO();
 
-    public Book(long bookId, String title, String ISBN, String edition, long publisherId, Double price, int copies) {
+    public Book(long bookId, String title, String ISBN, String edition, Publisher publisher, Double price, int copies,List<Author> authors) {
         this.bookId = bookId;
         this.title = title;
         this.ISBN = ISBN;
         this.edition = edition;
-        this.publisherId = publisherId;
+        this.publisher = publisher;
         this.price = price;
         this.copies = copies;
+        this.authors =  authors;
+    }
+
+    public List<Author> getAuthors() {
+        return authors;
     }
 
     Double price;
@@ -60,19 +65,8 @@ public class Book {
         return bookId;
     }
 
-    public long getPublisherId() {
-        return publisherId;
+    public Publisher getPublisher() {
+        return publisher;
     }
 
-    public void save() {
-
-    }
-
-    public static List<Book> retrieveAll(List<AuthorBookAssociation> authorBookAssociations) {
-        List<Book> books = new ArrayList<Book>();
-        for (AuthorBookAssociation authorBookAssociation : authorBookAssociations) {
-            books.add(bookDAO.retrieve(authorBookAssociation.getBookId()));
-        }
-        return books;
-    }
 }

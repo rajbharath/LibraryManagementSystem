@@ -1,4 +1,4 @@
-package src;
+package main;
 
 import DAO.DAOPool;
 import DAO.TransactionDAO;

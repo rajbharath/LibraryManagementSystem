@@ -1,4 +1,4 @@
-package src;
+package main;
 
 /**
  * Created by ganeswari on 10/8/14.

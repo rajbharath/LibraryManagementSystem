@@ -1,4 +1,4 @@
-package src;
+package main.exception;
 
 /**
  * Created by ganeswari on 10/9/14.
