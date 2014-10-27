@@ -1,8 +1,7 @@
 package main;
 
-import DAO.AuthorDAO;
+import main.DAO.AuthorDAO;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -15,16 +14,21 @@ public class Author {
     List<Book> books;
     boolean isPersistent;
 
+    public Author(String authorName) {
+        this(0, authorName, null, false);
+    }
+
     public List<Book> getBooks() {
         return books;
     }
 
-    public Author(long authorId, String name, List<Book> books) {
+    public Author(long authorId, String name, List<Book> books, boolean isPersistent) {
         this.authorId = authorId;
         this.name = name;
         this.books = books;
-
+        this.isPersistent = isPersistent;
     }
+
 
     public long getAuthorId() {
         return authorId;
@@ -39,16 +43,7 @@ public class Author {
     }
 
     public static List<Author> matches(String criteria) {
-
-        List<Author> authors = authorDAO.retrieveAll();
-
-        List<Author> matchedAuthors = new ArrayList<Author>();
-        for (Author author : authors) {
-            if (author.getName().contains(criteria)) {
-                matchedAuthors.add(author);
-            }
-        }
-        return matchedAuthors;
+        return authorDAO.retrieveMatchesByName(criteria);
     }
 
 
@@ -61,5 +56,13 @@ public class Author {
             authorDAO.update(this);
         else
             authorDAO.create(this);
+    }
+
+    public void setAuthorId(long authorId) {
+        this.authorId = authorId;
+    }
+
+    public void setIsPersistent(boolean isPersistent) {
+        this.isPersistent = isPersistent;
     }
 }

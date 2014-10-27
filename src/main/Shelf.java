@@ -1,16 +1,15 @@
 package main;
 
-import DAO.DAOPool;
 import main.exception.BookNotFoundException;
+import main.util.IOUtils;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by ganeswari on 10/8/14.
  */
 public class Shelf {
-    List<Book> books ;
+    List<Book> books;
     private static Shelf shelf = new Shelf();
 
     public static Shelf getInstance() {
@@ -18,7 +17,8 @@ public class Shelf {
     }
 
     private Shelf() {
-        books = DAOPool.bookDAO.retrieveAll();
+        books = Book.retrieveAll();
+        IOUtils.print(books.size() + "shelf size");
     }
 
     public void add(Book book) {
@@ -31,9 +31,10 @@ public class Shelf {
 
     public void remove(Book book) throws BookNotFoundException {
         int index = books.indexOf(book);
-        if (index != -1) {
+        if (index != -1 && book.getCopies() > 0) {
             Book b = books.get(index);
-            b.setCopies(b.getCopies() - book.getCopies());
+            b.setCopies(b.getCopies() - 1);
+            b.save();
         } else
             throw new BookNotFoundException();
     }

@@ -1,9 +1,11 @@
-package DAO;
+package main.DAO;
 
 import main.Transaction;
 
 import java.sql.Date;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.List;
 
 /**
@@ -12,16 +14,29 @@ import java.util.List;
 public class TransactionDAO extends AbstractDAO<Transaction> {
 
     @Override
-    public long create(Transaction transaction) {
-        int i = 0;
+    public Transaction create(Transaction transaction) {
         try {
             String sql = "insert into \"Transaction\"(\"Transaction_ID\",\"Reader_ID\",\"Book_ID\",\"Start_Date\",\"Estimated_Due_Date\") values(nextval('\"Transaction_ID_Sequence\"')," + transaction.getReader().getReaderId() + "," + transaction.getBook().getBookId() + ",'" + new Date(transaction.getStartDate().getTime()) + "','" + new Date(transaction.getEstimatedDueDate().getTime()) + "')";
-            System.out.println(sql);
-            i = connection.createStatement().executeUpdate(sql);
+            Statement statement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+
+            int returnCode = statement.executeUpdate(sql);
+            if (returnCode == 0)
+                throw new SQLException("Transaction Creation Failed, No Rows Affected");
+            try (ResultSet generatedKeys = statement.getGeneratedKeys()) {
+                if (generatedKeys.next()) {
+                    transaction.setTransactionId(generatedKeys.getLong(1));
+                    transaction.setIsPersistent(true);
+                    return transaction;
+                } else {
+                    throw new SQLException("Creating Transaction failed, no ID obtained.");
+                }
+            }
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return i;
+
+        return null;
     }
 
     @Override

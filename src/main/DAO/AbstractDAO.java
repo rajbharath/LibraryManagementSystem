@@ -1,4 +1,4 @@
-package DAO;
+package main.DAO;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -26,7 +26,7 @@ public abstract class AbstractDAO<T> {
         }
     }
 
-    public abstract long create(T t);
+    public abstract T create(T t);
 
     public abstract T retrieve(long Id);
 

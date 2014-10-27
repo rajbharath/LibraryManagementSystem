@@ -1,8 +1,11 @@
 
 package main;
 
+import main.DAO.AdminDAO;
 import main.exception.BookNotFoundException;
+import main.util.IOUtils;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -11,18 +14,31 @@ import java.util.List;
 public class Admin {
 
     Shelf shelf;
+    long adminId;
+    String adminName;
+    static AdminDAO adminDAO = new AdminDAO();
+    String password;
+    boolean isPersistent;
 
-    public Admin() {
+    public Admin(String adminName, String password, boolean isPersistent) {
+        this.adminName = adminName;
+        this.password = password;
         shelf = Shelf.getInstance();
+        this.isPersistent = isPersistent;
+
+    }
+
+    public Admin(String username, String password) {
+        this(username, password, true);
     }
 
     public void issue(Reader reader, Book book) {
-
         try {
             shelf.remove(book);
-//            Transaction transaction = new Transaction(reader.getReaderId(), book.getBookId(), Library.getToday(), Library.getDueDate(Library.getToday()));
+            Transaction transaction = new Transaction(reader, book, Library.getToday(), Library.getDueDate(Library.getToday()), false);
+            transaction.save();
         } catch (BookNotFoundException e) {
-            e.printStackTrace();
+            IOUtils.print("Book Not Found");
         }
 
     }
@@ -62,5 +78,40 @@ public class Admin {
         for (Book book : books) {
             removeBook(book);
         }
+    }
+
+    public static Admin retrieve(String username, String password) {
+
+        return adminDAO.retrieve(username, password);
+    }
+
+
+    public boolean save() {
+        if (isPersistent)
+            return adminDAO.update(this);
+        else
+            return adminDAO.create(this) != null;
+    }
+
+    public List<Book> searchBooksByTitle(String title) {
+        return shelf.search(SearchByType.TITLE, title);
+    }
+
+    public List<Book> searchBookByAuthorName(String authorName) {
+        return shelf.search(SearchByType.AUTHOR, authorName);
+    }
+
+    public void addBook(String title, String isbn, String edition, String publisherName, String[] authorNames, int copies, double price) {
+        Publisher publisher = new Publisher(publisherName);
+        publisher.save();
+        List<Author> authors = new ArrayList<>();
+        for (String authorName : authorNames) {
+            Author author = new Author(authorName);
+            author.save();
+            authors.add(author);
+        }
+        Book book = new Book(0, title, isbn, edition, publisher, authors, false, price, copies);
+        book.save();
+        shelf.add(book);
     }
 }

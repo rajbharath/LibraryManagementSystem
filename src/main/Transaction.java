@@ -1,6 +1,6 @@
 package main;
 
-import DAO.TransactionDAO;
+import main.DAO.TransactionDAO;
 
 import java.util.Date;
 
@@ -71,4 +71,15 @@ public class Transaction {
         return isPersistent;
     }
 
+    public void setTransactionId(long transactionId) {
+        this.transactionId = transactionId;
+    }
+
+    public void setIsPersistent(boolean isPersistent) {
+        this.isPersistent = isPersistent;
+    }
+
+    public void setPersistent(boolean isPersistent) {
+        this.isPersistent = isPersistent;
+    }
 }

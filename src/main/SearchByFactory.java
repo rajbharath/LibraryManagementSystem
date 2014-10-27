@@ -6,13 +6,13 @@ package main;
 public class SearchByFactory {
 
     public static SearchBy create(SearchByType searchByType) {
-        switch (searchByType)
-        {
+        switch (searchByType) {
             case AUTHOR:
                 return new SearchByAuthor();
 
             case TITLE:
-                break;
+                return new SearchByTitle();
+
         }
         return null;
     }

@@ -1,4 +1,4 @@
-package DAO;
+package main.DAO;
 
 import main.Reader;
 
@@ -13,8 +13,8 @@ public class ReaderDAO extends AbstractDAO<Reader> {
 
 
     @Override
-    public long create(Reader reader) {
-        return 0;
+    public Reader create(Reader reader) {
+        return null;
     }
 
     @Override
