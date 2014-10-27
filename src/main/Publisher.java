@@ -49,4 +49,8 @@ public class Publisher {
     public void setPersistent(boolean persistent) {
         this.isPersistent = persistent;
     }
+
+    public static Publisher retrieve(long publisher_id) {
+        return publisherDAO.retrieve(publisher_id);
+    }
 }

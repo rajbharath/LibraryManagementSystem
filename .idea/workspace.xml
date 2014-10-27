@@ -4,39 +4,27 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/DAO/BookDAO.java" line="74" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="990f9588-4f2e-4415-928b-692a24095496" name="Default" comment="Added Book Author Transaction Tests&#10;Added Add book functionality &#10;Refactored DAO objects">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/controller/AdminController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/DAO/AdminDAO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/screen/CheckOutScreen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/screen/DisplayScreen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/screen/LoginScreen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/screen/MainMenuScreen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/screen/Navigator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/screen/Screen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/screen/SearchByTitleScreen.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/screen/WelcomeScreen.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DAO/AbstractDAO.java" afterPath="$PROJECT_DIR$/src/main/DAO/AbstractDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DAO/AuthorDAO.java" afterPath="$PROJECT_DIR$/src/main/DAO/AuthorDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DAO/BookDAO.java" afterPath="$PROJECT_DIR$/src/main/DAO/BookDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DAO/DAOPool.java" afterPath="$PROJECT_DIR$/src/main/DAO/DAOPool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DAO/DBConfigReader.java" afterPath="$PROJECT_DIR$/src/main/DAO/DBConfigReader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DAO/PublisherDAO.java" afterPath="$PROJECT_DIR$/src/main/DAO/PublisherDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DAO/ReaderDAO.java" afterPath="$PROJECT_DIR$/src/main/DAO/ReaderDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DAO/TransactionDAO.java" afterPath="$PROJECT_DIR$/src/main/DAO/TransactionDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/IOUtils.java" afterPath="$PROJECT_DIR$/src/main/util/IOUtils.java" />
+    <list default="true" id="990f9588-4f2e-4415-928b-692a24095496" name="Default" comment="Added Functionality Remove Book.Return Book,Reader History &#10;Refactored DAO objects">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/DAO/DAOPool.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/controller/AdminController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/screen/CheckOutScreen.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/screen/DisplayScreen.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/screen/LoginScreen.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/screen/MainMenuScreen.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/screen/Navigator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/screen/Screen.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/screen/SearchByTitleScreen.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/screen/WelcomeScreen.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Client.java" afterPath="$PROJECT_DIR$/src/main/Client.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Admin.java" afterPath="$PROJECT_DIR$/src/main/Admin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Author.java" afterPath="$PROJECT_DIR$/src/main/Author.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Book.java" afterPath="$PROJECT_DIR$/src/main/Book.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Client.java" afterPath="$PROJECT_DIR$/src/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/DAO/BookDAO.java" afterPath="$PROJECT_DIR$/src/main/DAO/BookDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Library.java" afterPath="$PROJECT_DIR$/src/main/Library.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Publisher.java" afterPath="$PROJECT_DIR$/src/main/Publisher.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Reader.java" afterPath="$PROJECT_DIR$/src/main/Reader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/SearchByAuthor.java" afterPath="$PROJECT_DIR$/src/main/SearchByAuthor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/SearchByFactory.java" afterPath="$PROJECT_DIR$/src/main/SearchByFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/SearchByTitle.java" afterPath="$PROJECT_DIR$/src/main/SearchByTitle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/DAO/ReaderDAO.java" afterPath="$PROJECT_DIR$/src/main/DAO/ReaderDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Shelf.java" afterPath="$PROJECT_DIR$/src/main/Shelf.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Test/TestPostgreSQLJDBC.java" afterPath="$PROJECT_DIR$/src/Test/TestPostgreSQLJDBC.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Transaction.java" afterPath="$PROJECT_DIR$/src/main/Transaction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/DAO/TransactionDAO.java" afterPath="$PROJECT_DIR$/src/main/DAO/TransactionDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LibraryManagement2.iws" />
@@ -101,10 +89,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Client.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Client.java">
+      <file leaf-file-name="TransactionType.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/TransactionType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="18" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.0" vertical-offset="1264" max-vertical-offset="2910">
+            <state line="9" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
@@ -113,7 +101,25 @@
       <file leaf-file-name="AdminDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/DAO/AdminDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="17" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="960">
+            <state line="13" column="17" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="427" max-vertical-offset="960">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthorDAO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/DAO/AuthorDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="1770">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBConfigReader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/DAO/DBConfigReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="35" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
@@ -128,70 +134,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchByFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/SearchByFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DAOPool.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/DAO/DAOPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.2238806" vertical-offset="0" max-vertical-offset="402">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthorDAO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/DAO/AuthorDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="1770">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TransactionDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/DAO/TransactionDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="64" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+            <state line="60" column="5" selection-start="2462" selection-end="2462" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="1305">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Author.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Author.java">
+      <file leaf-file-name="AuthorTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/AuthorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="55" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="520" max-vertical-offset="960">
-              <folding>
-                <element signature="e#1428#1429#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Shelf.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Shelf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="5" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="318" max-vertical-offset="720">
+            <state line="30" column="1" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Publisher.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Publisher.java">
+      <file leaf-file-name="BookTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/BookTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="25" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-              <folding>
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1092#1093#0" expanded="true" />
-              </folding>
+            <state line="29" column="1" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="465">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestPostgreSQLJDBC.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Test/TestPostgreSQLJDBC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="5" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Test/TransactionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.5970149" vertical-offset="0" max-vertical-offset="402">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -222,7 +205,6 @@
         <option value="$PROJECT_DIR$/src/DAO/AuthorDAO.java" />
         <option value="$PROJECT_DIR$/src/Test/Book.java" />
         <option value="$PROJECT_DIR$/src/Test/BookTest.java" />
-        <option value="$PROJECT_DIR$/src/main/Reader.java" />
         <option value="$PROJECT_DIR$/src/DAO/ReaderDAO.java" />
         <option value="$PROJECT_DIR$/src/main/TransactionTest.java" />
         <option value="$PROJECT_DIR$/src/DAO/TransactionDAO.java" />
@@ -242,24 +224,25 @@
         <option value="$PROJECT_DIR$/src/main/util/IOUtils.java" />
         <option value="$PROJECT_DIR$/src/main/screen/MainMenuScreen.java" />
         <option value="$PROJECT_DIR$/src/main/screen/CheckOutScreen.java" />
-        <option value="$PROJECT_DIR$/src/main/Library.java" />
         <option value="$PROJECT_DIR$/src/main/screen/LoginScreen.java" />
         <option value="$PROJECT_DIR$/src/main/SearchByAuthor.java" />
         <option value="$PROJECT_DIR$/src/main/DAO/AdminDAO.java" />
         <option value="$PROJECT_DIR$/src/main/DAO/AbstractDAO.java" />
         <option value="$PROJECT_DIR$/src/main/Author.java" />
-        <option value="$PROJECT_DIR$/src/main/Book.java" />
-        <option value="$PROJECT_DIR$/src/main/DAO/ReaderDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/Transaction.java" />
-        <option value="$PROJECT_DIR$/src/main/DAO/TransactionDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/Publisher.java" />
-        <option value="$PROJECT_DIR$/src/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/Admin.java" />
         <option value="$PROJECT_DIR$/src/main/DAO/PublisherDAO.java" />
         <option value="$PROJECT_DIR$/src/main/DAO/AuthorDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/DAO/DAOPool.java" />
+        <option value="$PROJECT_DIR$/src/main/Publisher.java" />
         <option value="$PROJECT_DIR$/src/main/DAO/BookDAO.java" />
         <option value="$PROJECT_DIR$/src/main/Shelf.java" />
-        <option value="$PROJECT_DIR$/src/main/DAO/DAOPool.java" />
+        <option value="$PROJECT_DIR$/src/main/Library.java" />
+        <option value="$PROJECT_DIR$/src/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/Admin.java" />
+        <option value="$PROJECT_DIR$/src/main/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/main/DAO/TransactionDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/Reader.java" />
+        <option value="$PROJECT_DIR$/src/main/DAO/ReaderDAO.java" />
       </list>
     </option>
   </component>
@@ -346,108 +329,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LibraryManagement2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LibraryManagement2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LibraryManagement2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LibraryManagement2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LibraryManagement2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LibraryManagement2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exception" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LibraryManagement2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LibraryManagement2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DAO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LibraryManagement2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LibraryManagement2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -491,15 +372,31 @@
       <recent name="DAO" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration default="false" name="AuthorTest.testMatches" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TransactionTest">
+    <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Client" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LibraryManagement2" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AuthorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LibraryManagement2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.AuthorTest" />
-      <option name="METHOD_NAME" value="testMatches" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -514,14 +411,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="BookTest.testMatches" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LibraryManagement2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Test" />
       <option name="MAIN_CLASS_NAME" value="Test.BookTest" />
-      <option name="METHOD_NAME" value="testMatches" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -532,6 +429,22 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestPostgreSQLJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.TestPostgreSQLJDBC" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LibraryManagement2" />
+      <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -554,38 +467,6 @@
       </option>
       <envs />
       <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LibraryManagement2" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="WelcomeScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.screen.WelcomeScreen" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LibraryManagement2" />
-      <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -741,19 +622,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Test in LibraryManagement2" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AuthorTest.testMatches" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BookTest.testMatches" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TransactionTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Client" />
-      <item index="5" class="java.lang.String" itemvalue="Application.WelcomeScreen" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Client" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AuthorTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BookTest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestPostgreSQLJDBC" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TransactionTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Client" />
-        <item index="1" class="java.lang.String" itemvalue="Application.WelcomeScreen" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TransactionTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BookTest.testMatches" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AuthorTest.testMatches" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TransactionTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestPostgreSQLJDBC" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.BookTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AuthorTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Client" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -794,7 +675,11 @@
       <created>1413139051015</created>
       <updated>1413139051015</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Book Author Transaction Tests&#10;Added Add book functionality &#10;Refactored DAO objects">
+      <created>1414382141081</created>
+      <updated>1414382141081</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -804,13 +689,13 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32986626" sideWeight="0.49961567" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32986626" sideWeight="0.49961567" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32986626" sideWeight="0.50038433" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47399703" sideWeight="0.7724827" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45022288" sideWeight="0.7724827" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.49961567" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -842,7 +727,8 @@
     </option>
     <MESSAGE value="initial commit 2&#10;" />
     <MESSAGE value="Added Book Author Transaction Tests&#10;Added Add book functionality &#10;Refactored DAO objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Book Author Transaction Tests&#10;Added Add book functionality &#10;Refactored DAO objects" />
+    <MESSAGE value="Added Functionality Remove Book.Return Book,Reader History &#10;Refactored DAO objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Functionality Remove Book.Return Book,Reader History &#10;Refactored DAO objects" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -873,11 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/DAO/DAOPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="240" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/DAO/BookDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="8" selection-start="207" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="630" />
@@ -895,33 +776,14 @@
         <state line="144" column="12" selection-start="5577" selection-end="5577" vertical-scroll-proportion="0.0" vertical-offset="1600" max-vertical-offset="10755" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/DAO/DBConfigReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="35" selection-start="468" selection-end="468" vertical-scroll-proportion="0.5955335" vertical-offset="0" max-vertical-offset="690" />
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Downloads/postgresql-9.3-1102.jdbc41.jar!/org/postgresql/core/v3/QueryExecutorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="145" column="0" selection-start="9358" selection-end="9358" vertical-scroll-proportion="0.82191783" vertical-offset="1860" max-vertical-offset="2250" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/TestPostgreSQLJDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="485" selection-end="485" vertical-scroll-proportion="0.48387095" vertical-offset="0" max-vertical-offset="403">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/exception/BookNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="124" selection-end="124" vertical-scroll-proportion="0.14950167" vertical-offset="0" max-vertical-offset="602" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/BookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="46" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
@@ -934,72 +796,9 @@
         <state line="1356" column="18" selection-start="50131" selection-end="50131" vertical-scroll-proportion="0.33333334" vertical-offset="19696" max-vertical-offset="38835" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/TransactionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="46" selection-start="364" selection-end="364" vertical-scroll-proportion="0.6143959" vertical-offset="1" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/TransactionType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/screen/Navigator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/screen/SearchByTitleScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="43" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0" vertical-offset="310" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/util/IOUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="17" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/screen/DisplayScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="56" selection-start="1234" selection-end="1234" vertical-scroll-proportion="0.0" vertical-offset="700" max-vertical-offset="1080">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/screen/MainMenuScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="38" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0" vertical-offset="490" max-vertical-offset="1035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/screen/Screen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="16" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/screen/WelcomeScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
@@ -1011,39 +810,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/AuthorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="41" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/screen/CheckOutScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="17" selection-start="905" selection-end="905" vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="855">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Long.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="29" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.3907455" vertical-offset="328" max-vertical-offset="24030">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/SearchBy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/SearchByTitle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
@@ -1055,103 +824,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Reader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="35" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/screen/LoginScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="25" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/SearchByAuthor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="43" selection-start="539" selection-end="539" vertical-scroll-proportion="0.58715594" vertical-offset="33" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/DAO/AbstractDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="21" selection-start="798" selection-end="798" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1125">
-          <folding>
-            <element signature="e#1646#1647#0" expanded="true" />
-            <element signature="e#1696#1697#0" expanded="true" />
-            <element signature="e#1753#1754#0" expanded="true" />
-            <element signature="e#1801#1802#0" expanded="true" />
-            <element signature="e#1856#1857#0" expanded="true" />
-            <element signature="e#1904#1905#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/DAO/ReaderDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="19" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="142" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/DAO/TransactionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="64" selection-start="1426" selection-end="1426" vertical-scroll-proportion="0.0" vertical-offset="218" max-vertical-offset="975">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Publisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="25" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-          <folding>
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="18" selection-start="2817" selection-end="2817" vertical-scroll-proportion="0.0" vertical-offset="1264" max-vertical-offset="2910">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/DAO/AuthorDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="1770">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/DAO/AdminDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="960">
+        <state line="106" column="18" selection-start="2747" selection-end="2747" vertical-scroll-proportion="0.0" vertical-offset="1337" max-vertical-offset="3405">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="26" selection-start="3183" selection-end="3183" vertical-scroll-proportion="0.79452056" vertical-offset="1373" max-vertical-offset="1770">
+        <state line="53" column="27" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0" vertical-offset="1362" max-vertical-offset="1875">
           <folding />
         </state>
       </provider>
@@ -1167,7 +849,120 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="24" selection-start="864" selection-end="864" vertical-scroll-proportion="0.0" vertical-offset="353" max-vertical-offset="1725">
+        <state line="119" column="20" selection-start="2727" selection-end="2727" vertical-scroll-proportion="0.0" vertical-offset="1308" max-vertical-offset="1725">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="59" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Publisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="49" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.0" vertical-offset="423" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="41" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0" vertical-offset="404" max-vertical-offset="930">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/SearchBy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="22" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/SearchByAuthor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="43" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/SearchByFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/SearchByTitle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="25" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Shelf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="14" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="169" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="8" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/TransactionType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/DAO/AbstractDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="22" selection-start="195" selection-end="195" vertical-scroll-proportion="-0.682243" vertical-offset="324" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/DAO/AdminDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="17" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/DAO/AuthorDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="1770">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/DAO/BookDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="16" selection-start="2217" selection-end="2217" vertical-scroll-proportion="-4.698052" vertical-offset="2107" max-vertical-offset="2415">
+          <folding>
+            <element signature="e#6271#6277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/DAO/DBConfigReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="35" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="690">
           <folding />
         </state>
       </provider>
@@ -1179,32 +974,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/DAO/BookDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/DAO/ReaderDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="0.42416453" vertical-offset="0" max-vertical-offset="2190">
-          <folding>
-            <element signature="e#5648#5654#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/SearchByFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+        <state line="31" column="115" selection-start="834" selection-end="834" vertical-scroll-proportion="0.41883117" vertical-offset="216" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Shelf.java">
+    <entry file="file://$PROJECT_DIR$/src/main/DAO/TransactionDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="5" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" vertical-offset="318" max-vertical-offset="720">
+        <state line="60" column="5" selection-start="2462" selection-end="2462" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="1305">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/DAO/DAOPool.java">
+    <entry file="file://$PROJECT_DIR$/src/Test/AuthorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="86" selection-end="86" vertical-scroll-proportion="0.2238806" vertical-offset="0" max-vertical-offset="402">
+        <state line="30" column="1" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="1" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestPostgreSQLJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="5" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TransactionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.5970149" vertical-offset="0" max-vertical-offset="402">
           <folding />
         </state>
       </provider>

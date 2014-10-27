@@ -26,15 +26,14 @@ public class Shelf {
         if (index != -1) {
             Book b = books.get(index);
             b.setCopies(b.getCopies() + book.getCopies());
-        }
+        } else
+            books.add(book);
     }
 
     public void remove(Book book) throws BookNotFoundException {
         int index = books.indexOf(book);
-        if (index != -1 && book.getCopies() > 0) {
-            Book b = books.get(index);
-            b.setCopies(b.getCopies() - 1);
-            b.save();
+        if (index != -1) {
+            books.remove(book);
         } else
             throw new BookNotFoundException();
     }

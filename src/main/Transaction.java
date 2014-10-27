@@ -26,6 +26,7 @@ public class Transaction {
         this.startDate = startDate;
         this.estimatedDueDate = estimatedDueDate;
         this.transactionType = TransactionType.ISSUE;
+        this.isPersistent = isPersistent;
     }
 
     public void update(Date returnedDate) {
@@ -33,7 +34,7 @@ public class Transaction {
     }
 
     public static Transaction retrieve(long readerId, long bookId) {
-        return retrieve(readerId, bookId);
+        return transactionDAO.retrieve(readerId, bookId);
     }
 
     public void save() {
@@ -81,5 +82,9 @@ public class Transaction {
 
     public void setPersistent(boolean isPersistent) {
         this.isPersistent = isPersistent;
+    }
+
+    public long getTransactionId() {
+        return transactionId;
     }
 }

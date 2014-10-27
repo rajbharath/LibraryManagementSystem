@@ -1,6 +1,5 @@
-import main.Admin;
-import main.Book;
-import main.Reader;
+package main;
+
 import main.util.IOUtils;
 
 import java.util.List;
@@ -55,6 +54,16 @@ public class Client {
         }
     }
 
+    private void showMainMenu() {
+        IOUtils.print("1. Search By Title");
+        IOUtils.print("2. Search By Author Name");
+        IOUtils.print("3. Add Book");
+        IOUtils.print("4. Remove Book");
+        IOUtils.print("5. Reader History");
+        IOUtils.print("6. Return Book");
+        IOUtils.print("7. Log off");
+    }
+
     private boolean processOption(int option) {
         switch (option) {
             case 1:
@@ -71,13 +80,44 @@ public class Client {
             case 3:
                 addBook();
                 break;
+            case 4:
+                removeBook();
+                break;
+            case 5:
+                getReaderHistory();
+                break;
             case 6:
+                returnBook();
+                break;
+            case 7:
                 return true;
             default:
                 IOUtils.print("Invalid Option " + option);
                 break;
         }
         return false;
+    }
+
+    private void returnBook() {
+        IOUtils.print("Enter Reader ID");
+        long readerId = IOUtils.read();
+        IOUtils.print("Enter the Book ID");
+        long bookId = IOUtils.read();
+        admin.takeBack(Reader.retrieve(readerId), Book.retrieve(bookId));
+
+    }
+
+    private void getReaderHistory() {
+        IOUtils.print("Enter Reader ID to see the transaction history");
+        long readerId = IOUtils.read();
+        books = admin.getHistory(Reader.retrieve(readerId));
+        display();
+    }
+
+    private void removeBook() {
+        IOUtils.print("Enter Book ID to be deleted");
+        long bookId = IOUtils.read();
+        admin.removeBook(Book.retrieve(bookId));
     }
 
     private void addBook() {
@@ -124,14 +164,6 @@ public class Client {
 
     }
 
-    private void showMainMenu() {
-        IOUtils.print("1. Search By Title");
-        IOUtils.print("2. Search By Author Name");
-        IOUtils.print("3. Add Book");
-        IOUtils.print("4. Remove Book");
-        IOUtils.print("5. Reader History");
-        IOUtils.print("6. Log off");
-    }
 
     private void bookSelectionMenu() {
         IOUtils.print("Select the book by entering the S No ");

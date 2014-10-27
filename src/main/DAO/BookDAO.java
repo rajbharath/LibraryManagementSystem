@@ -56,7 +56,7 @@ public class BookDAO extends AbstractDAO<Book> {
         try {
             ResultSet resultSet = stmt.executeQuery("Select * from \"Book\" where \"Book_ID\"=" + Id + "");
             if (resultSet.next()) {
-                Publisher publisher = DAOPool.publisherDAO.retrieve(resultSet.getLong("Publisher_ID"));
+                Publisher publisher = Publisher.retrieve(resultSet.getLong("Publisher_ID"));
                 List<Long> authorIDs = retrieveAuthorIDSForBookID(resultSet.getLong("Book_ID"));
                 List<Author> authors = new ArrayList<Author>();
                 for (Long authorID : authorIDs) {
@@ -86,8 +86,23 @@ public class BookDAO extends AbstractDAO<Book> {
     }
 
     @Override
-    public boolean delete(Book object) {
-        return false;
+    public boolean delete(Book book) {
+
+        String sql = "Delete from \"Book\" where \"Book_ID\" = " + book.getBookId() + "";
+        Statement statement = null;
+        int returnCode = -1;
+        try {
+            connection.setAutoCommit(false);
+            statement = connection.createStatement();
+            returnCode = statement.executeUpdate(sql);
+            sql = "Delete from \"AuthorBookAssociation\" where \"Book_ID\"=" + book.getBookId() + "";
+            returnCode = statement.executeUpdate(sql);
+            connection.commit();
+            connection.setAutoCommit(true);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return returnCode != -1;
     }
 
     @Override
@@ -96,7 +111,7 @@ public class BookDAO extends AbstractDAO<Book> {
         try {
             ResultSet resultSet = stmt.executeQuery("Select * from \"Book\" ");
             while (resultSet.next()) {
-                Publisher publisher = DAOPool.publisherDAO.retrieve(resultSet.getLong("Publisher_ID"));
+                Publisher publisher = Publisher.retrieve(resultSet.getLong("Publisher_ID"));
                 List<Long> authorIDs = retrieveAuthorIDSForBookID(resultSet.getLong("Book_ID"));
                 List<Author> authors = new ArrayList<Author>();
                 for (Long authorID : authorIDs) {
@@ -132,7 +147,7 @@ public class BookDAO extends AbstractDAO<Book> {
             statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery(sql);
             while (resultSet.next()) {
-                Publisher publisher = DAOPool.publisherDAO.retrieve(resultSet.getLong("Publisher_ID"));
+                Publisher publisher = Publisher.retrieve(resultSet.getLong("Publisher_ID"));
                 List<Long> authorIDs = retrieveAuthorIDSForBookID(resultSet.getLong("Book_ID"));
                 List<Author> authors = new ArrayList<Author>();
                 for (Long authorID : authorIDs) {

@@ -3,7 +3,6 @@ package main;
 
 import main.DAO.AdminDAO;
 import main.exception.BookNotFoundException;
-import main.util.IOUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,26 +32,28 @@ public class Admin {
     }
 
     public void issue(Reader reader, Book book) {
-        try {
-            shelf.remove(book);
+        if (reader.addBook(book)) {
+            reader.save();
             Transaction transaction = new Transaction(reader, book, Library.getToday(), Library.getDueDate(Library.getToday()), false);
             transaction.save();
-        } catch (BookNotFoundException e) {
-            IOUtils.print("Book Not Found");
+            book.setCopies(book.getCopies() - 1);
+            book.save();
         }
-
     }
 
     public void renew(Reader reader, Book book) {
-        Transaction transaction = Transaction.retrieve(reader.getReaderId(), book.getBookId());
-        transaction.update(Library.getToday());
-//        transaction = new Transaction(reader.getReaderId(), book.getBookId(), Library.getToday(), Library.getDueDate(Library.getToday()));
+        //TO DO
     }
 
     public void takeBack(Reader reader, Book book) {
-        Transaction transaction = Transaction.retrieve(reader.getReaderId(), book.getBookId());
-        transaction.update(Library.getToday());
-        addBook(book);
+        if (reader.remove(book)) {
+            reader.save();
+            Transaction transaction = Transaction.retrieve(reader.getReaderId(), book.getBookId());
+            transaction.update(Library.getToday());
+            transaction.save();
+            book.setCopies(book.getCopies() + 1);
+            book.save();
+        }
     }
 
     public void addBook(Book book) {
@@ -68,6 +69,7 @@ public class Admin {
 
     public void removeBook(Book book) {
         try {
+            Book.delete(book);
             shelf.remove(book);
         } catch (BookNotFoundException e) {
             e.printStackTrace();
@@ -113,5 +115,9 @@ public class Admin {
         Book book = new Book(0, title, isbn, edition, publisher, authors, false, price, copies);
         book.save();
         shelf.add(book);
+    }
+
+    public List<Book> getHistory(Reader reader) {
+        return new ArrayList<>(reader.getBooks());
     }
 }
