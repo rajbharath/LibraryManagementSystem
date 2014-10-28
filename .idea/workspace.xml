@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="990f9588-4f2e-4415-928b-692a24095496" name="Default" comment="Added Functionality Remove Book.Return Book,Reader History &#10;Refactored DAO objects">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/DAO/DAOPool.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/controller/AdminController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/screen/CheckOutScreen.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/screen/DisplayScreen.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/screen/LoginScreen.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/screen/MainMenuScreen.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/screen/Navigator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/screen/Screen.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/screen/SearchByTitleScreen.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/screen/WelcomeScreen.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Client.java" afterPath="$PROJECT_DIR$/src/main/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Admin.java" afterPath="$PROJECT_DIR$/src/main/Admin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/DAO/BookDAO.java" afterPath="$PROJECT_DIR$/src/main/DAO/BookDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Library.java" afterPath="$PROJECT_DIR$/src/main/Library.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Publisher.java" afterPath="$PROJECT_DIR$/src/main/Publisher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Reader.java" afterPath="$PROJECT_DIR$/src/main/Reader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/DAO/ReaderDAO.java" afterPath="$PROJECT_DIR$/src/main/DAO/ReaderDAO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Shelf.java" afterPath="$PROJECT_DIR$/src/main/Shelf.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Transaction.java" afterPath="$PROJECT_DIR$/src/main/Transaction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/DAO/TransactionDAO.java" afterPath="$PROJECT_DIR$/src/main/DAO/TransactionDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Read me" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LibraryManagement2.iws" />
@@ -89,33 +70,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TransactionType.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/TransactionType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminDAO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/DAO/AdminDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="17" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="427" max-vertical-offset="960">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthorDAO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/DAO/AuthorDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="473" max-vertical-offset="1770">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DBConfigReader.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/DAO/DBConfigReader.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,7 +82,7 @@
       <file leaf-file-name="PublisherDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/DAO/PublisherDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="1035">
+            <state line="19" column="0" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1125">
               <folding />
             </state>
           </provider>
@@ -137,7 +91,7 @@
       <file leaf-file-name="TransactionDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/DAO/TransactionDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="5" selection-start="2462" selection-end="2462" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="1305">
+            <state line="60" column="5" selection-start="2462" selection-end="2462" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1380">
               <folding />
             </state>
           </provider>
@@ -146,7 +100,7 @@
       <file leaf-file-name="AuthorTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test/AuthorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="1" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="495">
+            <state line="30" column="1" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
@@ -155,7 +109,7 @@
       <file leaf-file-name="BookTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test/BookTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="1" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="465">
+            <state line="29" column="1" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="540">
               <folding />
             </state>
           </provider>
@@ -164,16 +118,43 @@
       <file leaf-file-name="TestPostgreSQLJDBC.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test/TestPostgreSQLJDBC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="5" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="375">
+            <state line="21" column="5" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TransactionTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TransactionTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Test/TransactionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.5970149" vertical-offset="0" max-vertical-offset="402">
+            <state line="20" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Admin.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Admin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="17" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="1875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transaction.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Transaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="8" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1080">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Read me" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Read me">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.6542056" vertical-offset="0" max-vertical-offset="321">
               <folding />
             </state>
           </provider>
@@ -192,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/src/Client.java" />
         <option value="$PROJECT_DIR$/src/main/IOUtils.java" />
         <option value="$PROJECT_DIR$/src/main/Client.java" />
         <option value="$PROJECT_DIR$/src/exception/Reader.java" />
@@ -243,6 +223,7 @@
         <option value="$PROJECT_DIR$/src/main/DAO/TransactionDAO.java" />
         <option value="$PROJECT_DIR$/src/main/Reader.java" />
         <option value="$PROJECT_DIR$/src/main/DAO/ReaderDAO.java" />
+        <option value="$PROJECT_DIR$/Read me" />
       </list>
     </option>
   </component>
@@ -296,7 +277,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -329,8 +309,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LibraryManagement2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LibraryManagement2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -372,7 +371,7 @@
       <recent name="DAO" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TransactionTest">
+  <component name="RunManager" selected="Application.Client">
     <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Client" />
       <option name="VM_PARAMETERS" />
@@ -630,11 +629,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TransactionTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestPostgreSQLJDBC" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BookTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AuthorTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TransactionTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestPostgreSQLJDBC" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BookTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AuthorTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -679,7 +678,11 @@
       <created>1414382141081</created>
       <updated>1414382141081</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Functionality Remove Book.Return Book,Reader History &#10;Refactored DAO objects">
+      <created>1414441490557</created>
+      <updated>1414441490557</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -689,18 +692,17 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32986626" sideWeight="0.49961567" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.49961567" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32986626" sideWeight="0.50038433" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45022288" sideWeight="0.22751729" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45022288" sideWeight="0.7724827" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45022288" sideWeight="0.7724827" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.49961567" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2236741" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.49961567" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -711,6 +713,7 @@
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="164" y="96" width="1103" height="573" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.49961567" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -740,6 +743,76 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/TransactionType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/DAO/AdminDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="17" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/DAO/AuthorDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="706" selection-end="706" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1920">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/DAO/DBConfigReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="35" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/DAO/PublisherDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/DAO/TransactionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="5" selection-start="2462" selection-end="2462" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/AuthorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="1" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="1" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TestPostgreSQLJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="5" selection-start="719" selection-end="719" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test/TransactionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/DAO/ReaderDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="8" selection-start="219" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="645" />
@@ -766,9 +839,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/DAO/AbstractDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="300">
-          <folding />
-        </state>
+        <state line="8" column="35" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="300" />
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/List.java">
@@ -798,9 +869,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/util/IOUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="17" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="660">
-          <folding />
-        </state>
+        <state line="37" column="17" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="660" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DBConfig">
@@ -812,28 +881,17 @@
     </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Long.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="29" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.3907455" vertical-offset="328" max-vertical-offset="24030">
-          <folding />
-        </state>
+        <state line="56" column="29" selection-start="1321" selection-end="1321" vertical-scroll-proportion="0.3907455" vertical-offset="328" max-vertical-offset="24030" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/SearchByType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
+        <state line="6" column="17" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="106" column="18" selection-start="2747" selection-end="2747" vertical-scroll-proportion="0.0" vertical-offset="1337" max-vertical-offset="3405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="27" selection-start="1457" selection-end="1457" vertical-scroll-proportion="0.0" vertical-offset="1362" max-vertical-offset="1875">
           <folding />
         </state>
       </provider>
@@ -856,9 +914,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="59" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="450">
-          <folding />
-        </state>
+        <state line="9" column="59" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="450" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Publisher.java">
@@ -883,44 +939,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/SearchBy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <folding />
-        </state>
+        <state line="8" column="22" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/SearchByAuthor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="43" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
+        <state line="18" column="43" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/SearchByFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/SearchByTitle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="25" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
+        <state line="10" column="25" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Shelf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="14" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="169" max-vertical-offset="705">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="8" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1110">
-          <folding />
-        </state>
+        <state line="28" column="14" selection-start="644" selection-end="644" vertical-scroll-proportion="0.0" vertical-offset="169" max-vertical-offset="705" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/TransactionType.java">
@@ -932,9 +971,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/DAO/AbstractDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="195" selection-end="195" vertical-scroll-proportion="-0.682243" vertical-offset="324" max-vertical-offset="645">
-          <folding />
-        </state>
+        <state line="10" column="22" selection-start="195" selection-end="195" vertical-scroll-proportion="-0.682243" vertical-offset="324" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/DAO/AdminDAO.java">
@@ -976,9 +1013,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/DAO/ReaderDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="115" selection-start="834" selection-end="834" vertical-scroll-proportion="0.41883117" vertical-offset="216" max-vertical-offset="1080">
-          <folding />
-        </state>
+        <state line="31" column="115" selection-start="834" selection-end="834" vertical-scroll-proportion="0.41883117" vertical-offset="216" max-vertical-offset="1080" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/DAO/TransactionDAO.java">
@@ -1011,7 +1046,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Test/TransactionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.5970149" vertical-offset="0" max-vertical-offset="402">
+        <state line="20" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="17" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="558" max-vertical-offset="1875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="8" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Read me">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.6542056" vertical-offset="0" max-vertical-offset="321">
           <folding />
         </state>
       </provider>
