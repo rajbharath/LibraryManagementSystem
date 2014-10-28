@@ -4,8 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/DAO/BookDAO.java" line="74" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="990f9588-4f2e-4415-928b-692a24095496" name="Default" comment="Added Functionality Remove Book.Return Book,Reader History &#10;Refactored DAO objects">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Read me" />
+    <list default="true" id="990f9588-4f2e-4415-928b-692a24095496" name="Default" comment="Added Read me">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Read me" afterPath="$PROJECT_DIR$/Read me.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LibraryManagement2.iws" />
@@ -151,8 +151,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Read me" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Read me">
+      <file leaf-file-name="Read me.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Read me.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state line="14" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.6542056" vertical-offset="0" max-vertical-offset="321">
               <folding />
@@ -682,12 +682,16 @@
       <created>1414441490557</created>
       <updated>1414441490557</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Read me">
+      <created>1414469992097</created>
+      <updated>1414469992097</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -702,7 +706,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.49961567" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2236741" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2236741" sideWeight="0.5" order="0" side_tool="true" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -731,7 +735,8 @@
     <MESSAGE value="initial commit 2&#10;" />
     <MESSAGE value="Added Book Author Transaction Tests&#10;Added Add book functionality &#10;Refactored DAO objects" />
     <MESSAGE value="Added Functionality Remove Book.Return Book,Reader History &#10;Refactored DAO objects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Functionality Remove Book.Return Book,Reader History &#10;Refactored DAO objects" />
+    <MESSAGE value="Added Read me" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Read me" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1065,7 +1070,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Read me">
+    <entry file="file://$PROJECT_DIR$/Read me.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.6542056" vertical-offset="0" max-vertical-offset="321">
           <folding />
