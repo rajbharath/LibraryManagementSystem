@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="990f9588-4f2e-4415-928b-692a24095496" name="Default" comment="readme">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Read me.txt" afterPath="$PROJECT_DIR$/Read me.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Read me.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LibraryManagement2.iws" />
@@ -151,8 +151,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Read me.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Read me.md">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state line="14" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.6542056" vertical-offset="0" max-vertical-offset="321">
               <folding />
@@ -690,7 +690,11 @@
       <created>1414470053780</created>
       <updated>1414470053780</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="readme">
+      <created>1414470095606</created>
+      <updated>1414470095606</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1075,7 +1079,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Read me.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.6542056" vertical-offset="0" max-vertical-offset="321">
           <folding />
